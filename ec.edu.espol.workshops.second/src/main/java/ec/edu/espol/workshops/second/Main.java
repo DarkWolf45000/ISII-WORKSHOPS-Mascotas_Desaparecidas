@@ -71,7 +71,7 @@ public class Main {
 			
 			
 			
-			cliente c= new cliente(ageC,sex,ms,dl);
+			CarInsurance c= new CarInsurance(ageC,sex,ms,dl);
 			int insurance=c.calculateInsurance();
 			if(insurance!=-1) {
 				System.out.println("The value of the client's insurance is: "+insurance);

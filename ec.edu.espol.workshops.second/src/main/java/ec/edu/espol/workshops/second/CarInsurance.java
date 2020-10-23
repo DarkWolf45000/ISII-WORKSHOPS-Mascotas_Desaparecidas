@@ -1,13 +1,13 @@
 package ec.edu.espol.workshops.second;
 
-public class cliente {
+public class CarInsurance {
 	private int age;
 	private String sex;
 	private boolean maritalStatus;
 	
 	private boolean licence;
 
-	public cliente(int age, String sex, boolean maritalStatus, boolean licence) {
+	public CarInsurance(int age, String sex, boolean maritalStatus, boolean licence) {
 		this.age = age;
 		this.sex = sex;
 		this.maritalStatus = maritalStatus;
