@@ -40,5 +40,36 @@ public class cliente {
 		return this.licence;
 	}
 
+		
+	public int calculateInsurance() {
+		
+			int insurance=500;
+			
+			if(this.age>80) {
+				
+				return -1;
+				
+			}else if(!this.licence) {
+				
+				return -1;
+				
+			}else {
+				
+				if(this.sex.equalsIgnoreCase("m") && !this.maritalStatus && this.age<25) {
+					insurance=insurance+1500;
+					
+				}
+				
+				if(this.sex.equalsIgnoreCase("f") || this.maritalStatus) {
+					insurance=insurance-200;
+				}
+				
+				if(this.age>=45 && this.age<65) {
+					insurance=insurance-100;
+				}
+				
+			}
+			return insurance;
+	}
 
 }
