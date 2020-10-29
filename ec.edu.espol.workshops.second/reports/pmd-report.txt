@@ -1,0 +1,216 @@
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:8:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:8:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:8:	DataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=19)
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:8:	DataClass: The class 'CarInsurance' is suspected to be a Data Class (WOC=10.000%, NOPA=0, NOAM=8, WMC=19)
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:14:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:14:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:20:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:20:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:24:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:24:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:28:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:28:	CommentRequired: Field comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:35:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:35:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:71:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:71:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:71:	CyclomaticComplexity: The method 'calculateInsurance()' has a cyclomatic complexity of 10.
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:71:	CyclomaticComplexity: The method 'calculateInsurance()' has a cyclomatic complexity of 10.
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:73:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'insurance' (lines '73'-'98').
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:73:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'insurance' (lines '73'-'98').
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:83:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:83:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:88:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/ec/edu/espol/workshops/second/CarInsurance.java:88:	AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	CommentRequired: Class comments are required
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	ModifiedCyclomaticComplexity: The class 'Main' has a Modified Cyclomatic Complexity of 17 (Highest = 16).
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	ModifiedCyclomaticComplexity: The class 'Main' has a Modified Cyclomatic Complexity of 17 (Highest = 16).
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	StdCyclomaticComplexity: The class 'Main' has a Standard Cyclomatic Complexity of 17 (Highest = 16).
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	StdCyclomaticComplexity: The class 'Main' has a Standard Cyclomatic Complexity of 17 (Highest = 16).
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/ec/edu/espol/workshops/second/Main.java:5:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	CyclomaticComplexity: The method 'main(String)' has a cyclomatic complexity of 24.
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	CyclomaticComplexity: The method 'main(String)' has a cyclomatic complexity of 24.
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	ModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 16.
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	ModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 16.
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	NPathComplexity: The method 'main(String)' has an NPath complexity of 6481, current threshold is 200
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	NPathComplexity: The method 'main(String)' has an NPath complexity of 6481, current threshold is 200
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	StdCyclomaticComplexity: The method 'main' has a Standard Cyclomatic Complexity of 16.
+src/main/java/ec/edu/espol/workshops/second/Main.java:7:	StdCyclomaticComplexity: The method 'main' has a Standard Cyclomatic Complexity of 16.
+src/main/java/ec/edu/espol/workshops/second/Main.java:9:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/main/java/ec/edu/espol/workshops/second/Main.java:9:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/main/java/ec/edu/espol/workshops/second/Main.java:16:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:16:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:17:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ageC' (lines '17'-'22').
+src/main/java/ec/edu/espol/workshops/second/Main.java:17:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ageC' (lines '17'-'22').
+src/main/java/ec/edu/espol/workshops/second/Main.java:18:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:18:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:22:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ageC' (lines '22'-'22').
+src/main/java/ec/edu/espol/workshops/second/Main.java:22:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ageC' (lines '22'-'22').
+src/main/java/ec/edu/espol/workshops/second/Main.java:25:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:25:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:31:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:31:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:32:	AvoidDuplicateLiterals: The String literal "lol" appears 4 times in this file; the first occurrence is on line 32
+src/main/java/ec/edu/espol/workshops/second/Main.java:32:	AvoidDuplicateLiterals: The String literal "lol" appears 4 times in this file; the first occurrence is on line 32
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:33:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:35:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:36:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:36:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:44:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:44:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:46:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ms' (lines '46'-'52').
+src/main/java/ec/edu/espol/workshops/second/Main.java:46:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ms' (lines '46'-'52').
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:47:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:49:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:50:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:50:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:51:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:51:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:51:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:51:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:51:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:51:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:52:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ms' (lines '52'-'52').
+src/main/java/ec/edu/espol/workshops/second/Main.java:52:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ms' (lines '52'-'52').
+src/main/java/ec/edu/espol/workshops/second/Main.java:59:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:59:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:61:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'dl' (lines '61'-'68').
+src/main/java/ec/edu/espol/workshops/second/Main.java:61:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'dl' (lines '61'-'68').
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:63:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:65:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:66:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:66:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:67:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:67:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:67:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:67:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:67:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:67:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:68:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'dl' (lines '68'-'68').
+src/main/java/ec/edu/espol/workshops/second/Main.java:68:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'dl' (lines '68'-'68').
+src/main/java/ec/edu/espol/workshops/second/Main.java:74:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/ec/edu/espol/workshops/second/Main.java:74:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/main/java/ec/edu/espol/workshops/second/Main.java:77:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:77:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:79:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:79:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:83:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:83:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:86:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:88:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:89:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:89:	SystemPrintln: System.out.println is used
+src/main/java/ec/edu/espol/workshops/second/Main.java:90:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:90:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/ec/edu/espol/workshops/second/Main.java:90:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:90:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/ec/edu/espol/workshops/second/Main.java:90:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:90:	PositionLiteralsFirstInCaseInsensitiveComparisons: Position literals first in String comparisons for EqualsIgnoreCase
+src/main/java/ec/edu/espol/workshops/second/Main.java:91:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'continuar' (lines '91'-'91').
+src/main/java/ec/edu/espol/workshops/second/Main.java:91:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'continuar' (lines '91'-'91').
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:6:	CommentRequired: Class comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:6:	CommentRequired: Class comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:9:	CommentRequired: Public method and constructor comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:12:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:12:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:16:	CommentRequired: Public method and constructor comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:19:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:19:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:23:	CommentRequired: Public method and constructor comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:23:	CommentRequired: Public method and constructor comments are required
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:26:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/ec/edu/espol/workshops/second/clienteTest.java:26:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message

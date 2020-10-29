@@ -1,12 +1,37 @@
 package ec.edu.espol.workshops.second;
 
+/**
+ * Clase creada para representar el seguro del vehiculo solicitado
+ * 
+ *  @author Matheus
+ * */
 public class CarInsurance {
+	/**
+	 * Edad del cliente solicitando el seguro
+	 * 
+	 *  @author Matheus
+	 */
 	private int age;
+	/**
+	 * Genero del cliente solicitando el seguro
+	 * 
+	 *  @author Matheus
+	 */
 	private String sex;
+	/**
+	 * Estado marital del cliente solicitando el seguro
+	 */
 	private boolean maritalStatus;
-	
+	/**
+	 * Si tiene o no licencia el cliente solicitando el seguro
+	 */
 	private boolean licence;
-
+	
+	/**
+	 * Constructor de clase de seguro de vehiculo con parametros dados
+	 * 
+	 * @author Matheus
+	 */
 	public CarInsurance(int age, String sex, boolean maritalStatus, boolean licence) {
 		this.age = age;
 		this.sex = sex;
@@ -40,27 +65,29 @@ public class CarInsurance {
 		return this.licence;
 	}
 
-		
+	/**
+	 * Funcion para devolver resultado de valor del seguro
+	 */
 	public int calculateInsurance() {
-		
+			//SEGURO BASE
 			int insurance=500;
+			//limite maximo de edad posible para servicio
+			final int limiteEdad=80;
 			
-			if(this.age>80) {
-				
+			final int limiteEdad2=25;
+			
+			if(this.age>limiteEdad) {
 				return -1;
-				
 			}else if(!this.licence) {
-				
 				return -1;
-				
 			}else {
 				
-				if(this.sex.equalsIgnoreCase("m") && !this.maritalStatus && this.age<25) {
+				if("m".equalsIgnoreCase(this.sex) && !this.maritalStatus && this.age<limiteEdad2) {
 					insurance=insurance+1500;
 					
 				}
 				
-				if(this.sex.equalsIgnoreCase("f") || this.maritalStatus) {
+				if("f".equalsIgnoreCase(this.sex) || this.maritalStatus) {
 					insurance=insurance-200;
 				}
 				
