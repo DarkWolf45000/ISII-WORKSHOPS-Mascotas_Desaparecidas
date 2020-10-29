@@ -43,9 +43,9 @@ public class CarInsurance {
 		
 	public int calculateInsurance() {
 		
-			int insurance=500;
+			int insurance = 500;
 			
-			if(this.age>80) {
+			if(this.age > 80) {
 				
 				return -1;
 				
@@ -55,8 +55,8 @@ public class CarInsurance {
 				
 			}else {
 				
-				if(this.sex.equalsIgnoreCase("m") && !this.maritalStatus && this.age<25) {
-					insurance=insurance+1500;
+				if(this.sex.equalsIgnoreCase("m") && !this.maritalStatus && this.age < 25) {
+					insurance = insurance + 1500;
 					
 				}
 				
@@ -64,8 +64,8 @@ public class CarInsurance {
 					insurance=insurance-200;
 				}
 				
-				if(this.age>=45 && this.age<65) {
-					insurance=insurance-100;
+				if(this.age >= 45 && this.age < 65) {
+					insurance=insurance - 100;
 				}
 				
 			}
