@@ -3,7 +3,7 @@ package ec.edu.espol.workshops.second;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-public class clienteTest {
+public class ClienteTest {
 
 	@Test
 	public void test() {
