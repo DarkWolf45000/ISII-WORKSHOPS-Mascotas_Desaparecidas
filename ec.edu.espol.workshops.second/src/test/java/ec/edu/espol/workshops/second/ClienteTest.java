@@ -26,4 +26,5 @@ public class ClienteTest {
     int output = c.calculateInsurance();
     assertEquals(200, output);
   }
+
 }

@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+    // TODO Auto-generated method stub
+    Scanner scan = new Scanner(System.in, "UTF-8");
     boolean continuar = true;
+
     while (continuar) {
+
       boolean banderaEdad = true;
+
       System.out.println("Enter the client data:");
       int ageC = 0;
       System.out.println("Enter the age of the client:");
