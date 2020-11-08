@@ -44,7 +44,7 @@ public class Main {
           System.out.println("Please enter a correct marital status!");
         } else if (maritalState.equalsIgnoreCase("N")) {
           ms = false;
-        }
+        } 
       }
 
       System.out.println("Did the client present a valid driving license?(Y/N):");
@@ -55,9 +55,9 @@ public class Main {
         drivingLicense = scan.nextLine();
         if (!drivingLicense.equalsIgnoreCase("Y") && !drivingLicense.equalsIgnoreCase("N")) {
           System.out.println("Please enter a correct driving license status!");
-        } else if (maritalState.equalsIgnoreCase("N")) {
+        } else if (drivingLicense.equalsIgnoreCase("N")) {
           dl = false;
-        }
+        } 
       }
 
       CarInsurance c = new CarInsurance(ageC, sex, ms, dl);
