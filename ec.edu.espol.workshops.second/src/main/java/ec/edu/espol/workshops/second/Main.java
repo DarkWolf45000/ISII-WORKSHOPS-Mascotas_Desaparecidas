@@ -55,7 +55,7 @@ public class Main {
         drivingLicense = scan.nextLine();
         if (!drivingLicense.equalsIgnoreCase("Y") && !drivingLicense.equalsIgnoreCase("N")) {
           System.out.println("Please enter a correct driving license status!");
-        } else if (drivingLicense.equalsIgnoreCase("N")) {
+        } else if (maritalState.equalsIgnoreCase("N")) {
           dl = false;
         } 
       }
