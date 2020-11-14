@@ -12,7 +12,7 @@ Feature: Verify amount to pay
 		Scenario: Older man
 			Given the client is a man
 			And the client is older than 45
-			But the client is younger then 65
+			But the client is younger than 65
 			And the client has a driver licence
 			When the client asks for car insurence
 			Then the client will be charged 400
