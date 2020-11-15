@@ -22,20 +22,22 @@ public class StepDefs {
   @Given("the client is a man")
   public void the_client_is_a_man() {
     this.gender = "M";
-    this.married = true;
   }
   @Given("the client is a woman")
   public void the_client_is_a_woman() {
     this.gender = "F";
-    this.married = true ;
   }
   @And("the client is married")
   public void the_client_is_married() {
     this.married = true;
   }
+  @And("the client is not married")
+  public void the_client_is_not_married() {
+    this.married = false;
+  }
   @And("the client is not older than 25")
   public void the_client_is_not_older_than_25() {
-    this.age = 26;
+    this.age = 24;
   }
   @And("the client is older than 45")
   public void the_client_is_older_than_45() {
@@ -62,6 +64,10 @@ public class StepDefs {
   @Then("the client will be charged 400")
   public void the_client_will_be_charged_400() {
     assertEquals(400,this.insurance_value);
+  }
+  @Then("the client will be charged 300")
+  public void the_client_will_be_charged_300() {
+    assertEquals(300,this.insurance_value);
   }
   
 }

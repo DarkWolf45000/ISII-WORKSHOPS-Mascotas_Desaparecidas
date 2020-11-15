@@ -4,6 +4,7 @@ Feature: Verify amount to pay
 	
 		Scenario: Young man
 			Given the client is a man
+			And the client is not married
 			And the client is not older than 25
 			And the client has a driver licence
 			When the client asks for car insurence
@@ -11,6 +12,7 @@ Feature: Verify amount to pay
 		
 		Scenario: Older man
 			Given the client is a man
+			And the client is not married
 			And the client is older than 45
 			But the client is younger than 65
 			And the client has a driver licence
@@ -19,7 +21,8 @@ Feature: Verify amount to pay
 		
 		Scenario: Young woman
 			Given the client is a woman
-			And the client is married
+			And the client is not married
+			And the client is not older than 25
 			And the client has a driver licence
 			When the client asks for car insurence
-			Then the client will be charged 400
+			Then the client will be charged 300
