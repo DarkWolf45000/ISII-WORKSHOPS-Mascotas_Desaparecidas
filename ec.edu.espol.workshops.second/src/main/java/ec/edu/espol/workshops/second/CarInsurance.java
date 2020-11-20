@@ -75,7 +75,7 @@ public class CarInsurance {
 
     final int limiteEdad2 = 25;
 
-    if (this.age > limiteEdad) {
+    if (this.age > limiteEdad ) {
       return -1;
     } else if (!this.licence) {
       return -1;

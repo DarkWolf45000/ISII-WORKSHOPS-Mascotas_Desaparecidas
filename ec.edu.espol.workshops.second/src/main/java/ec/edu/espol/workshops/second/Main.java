@@ -19,10 +19,17 @@ public class Main {
         try {
           String age = scan.nextLine();
           ageC = Integer.parseInt(age);
-          banderaEdad = false;
+          if(ageC < 0 ) {
+            System.out.println("Please enter a valid age!");
+            
+          }
+          else {
+            banderaEdad = false;
+          }
         } catch (NumberFormatException error) {
-          System.out.println("Please enter a correct age!");
+          System.out.println("Please enter a valid age!");
         }
+        
       }
 
       System.out.println("Enter the sex of the client(M for male and F for female):");
