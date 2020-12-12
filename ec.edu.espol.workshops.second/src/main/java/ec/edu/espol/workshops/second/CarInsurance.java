@@ -69,7 +69,7 @@ public class CarInsurance {
    */
   public int calculateInsurance() {
     // SEGURO BASE
-    int insurance = 500;
+    int insurance = 600;
     // limite maximo de edad posible para servicio
     final int limiteEdad = 80;
 
