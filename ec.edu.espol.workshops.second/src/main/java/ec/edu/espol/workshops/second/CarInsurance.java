@@ -85,6 +85,10 @@ public class CarInsurance {
         insurance = insurance + 1500;
 
       }
+      if ("m".equalsIgnoreCase(this.sex) && this.age < 45 && this.age > 25) {
+          insurance = insurance - 100;
+
+        }
 
       if ("f".equalsIgnoreCase(this.sex) || this.maritalStatus) {
         insurance = insurance - 200;
